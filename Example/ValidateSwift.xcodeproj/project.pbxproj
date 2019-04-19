@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		19C04B7FB845A1A4F2EFF7F7 /* Pods_ValidateSwift_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92DF3D97ACB61C4FE09970BF /* Pods_ValidateSwift_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		EB92BEDE2269CCAD00EA104E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB92BEDD2269CCAD00EA104E /* Main.storyboard */; };
+		EB92BEE52269CCD700EA104E /* ValidateArrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB92BEE22269CCD600EA104E /* ValidateArrayViewController.swift */; };
+		EB92BEE62269CCD700EA104E /* ValidateSubmitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB92BEE32269CCD600EA104E /* ValidateSubmitViewController.swift */; };
+		EB92BEE72269CCD700EA104E /* VaildateSingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB92BEE42269CCD700EA104E /* VaildateSingleViewController.swift */; };
 		EBD5E36EAA43418B449BC742 /* Pods_ValidateSwift_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82EC27EF5A0D18BFCBF254B7 /* Pods_ValidateSwift_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,23 +31,25 @@
 
 /* Begin PBXFileReference section */
 		01949311E1A943E81C60C2DD /* Pods-ValidateSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ValidateSwift_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ValidateSwift_Tests/Pods-ValidateSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2CAE64721B385B903E8032EB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2CAE64721B385B903E8032EB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		52279E6603DCF31338773580 /* Pods-ValidateSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ValidateSwift_Tests.release.xcconfig"; path = "Target Support Files/Pods-ValidateSwift_Tests/Pods-ValidateSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ValidateSwift_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ValidateSwift_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* ValidateSwift_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValidateSwift_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		65364262FD9123F9D930AD86 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		65364262FD9123F9D930AD86 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		82EC27EF5A0D18BFCBF254B7 /* Pods_ValidateSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ValidateSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92DF3D97ACB61C4FE09970BF /* Pods_ValidateSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ValidateSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6F5D71DE3702AF76E4E7F1F /* ValidateSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ValidateSwift.podspec; path = ../ValidateSwift.podspec; sourceTree = "<group>"; };
+		D6F5D71DE3702AF76E4E7F1F /* ValidateSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ValidateSwift.podspec; path = ../ValidateSwift.podspec; sourceTree = "<group>"; };
 		E4DC2CC949756010BAA841D0 /* Pods-ValidateSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ValidateSwift_Example.debug.xcconfig"; path = "Target Support Files/Pods-ValidateSwift_Example/Pods-ValidateSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EB92BEDD2269CCAD00EA104E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EB92BEE22269CCD600EA104E /* ValidateArrayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidateArrayViewController.swift; sourceTree = "<group>"; };
+		EB92BEE32269CCD600EA104E /* ValidateSubmitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidateSubmitViewController.swift; sourceTree = "<group>"; };
+		EB92BEE42269CCD700EA104E /* VaildateSingleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VaildateSingleViewController.swift; sourceTree = "<group>"; };
 		EE5E6CD9CC6E1DE180577301 /* Pods-ValidateSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ValidateSwift_Example.release.xcconfig"; path = "Target Support Files/Pods-ValidateSwift_Example/Pods-ValidateSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,9 +97,9 @@
 		607FACD21AFB9204008FA782 /* Example for ValidateSwift */ = {
 			isa = PBXGroup;
 			children = (
+				EB92BEDF2269CCBC00EA104E /* Demo */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
+				EB92BEDD2269CCAD00EA104E /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
@@ -147,7 +151,6 @@
 				01949311E1A943E81C60C2DD /* Pods-ValidateSwift_Tests.debug.xcconfig */,
 				52279E6603DCF31338773580 /* Pods-ValidateSwift_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -158,6 +161,16 @@
 				82EC27EF5A0D18BFCBF254B7 /* Pods_ValidateSwift_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB92BEDF2269CCBC00EA104E /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				EB92BEE42269CCD700EA104E /* VaildateSingleViewController.swift */,
+				EB92BEE22269CCD600EA104E /* ValidateArrayViewController.swift */,
+				EB92BEE32269CCD600EA104E /* ValidateSubmitViewController.swift */,
+			);
+			name = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,7 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				EB92BEDE2269CCAD00EA104E /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -335,7 +348,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				EB92BEE72269CCD700EA104E /* VaildateSingleViewController.swift in Sources */,
+				EB92BEE52269CCD700EA104E /* ValidateArrayViewController.swift in Sources */,
+				EB92BEE62269CCD700EA104E /* ValidateSubmitViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,14 +374,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -1,0 +1,6 @@
+framework module ValidateSwift {
+  umbrella header "ValidateSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - ValidateSwift (0.1.0)
+
+DEPENDENCIES:
+  - ValidateSwift (from `../`)
+
+EXTERNAL SOURCES:
+  ValidateSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ValidateSwift: 47343b0344789c9b82aa0eacfd2d9c6c33ac3200
+
+PODFILE CHECKSUM: fbc88dbb040859fe6c8593f0d02b880a3d0de309
+
+COCOAPODS: 1.6.0.beta.1
