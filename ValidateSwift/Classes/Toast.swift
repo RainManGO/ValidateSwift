@@ -5,19 +5,19 @@
 //  Created by ZhangYu on 2019/4/19.
 //
 
-class ToastView: NSObject {
+public class ToastView: NSObject {
     var delay: Double = 3.0  //延迟时间
     var bufWindows: [UIWindow] = []    //缓存window
 
     //显示位置
-    enum Position: Int {
+    public enum Position: Int {
         case Top
         case Mid
         case Bottom
     }
 
     //显示toast
-    func showToast(text: String, pos: Position) {
+    public func showToast(text: String, pos: Position) {
         let rootRect = UIApplication.shared.windows.first?.frame   //应用屏幕大小
 
         let container = UIView()   //全屏且透明，盖在最上面， 可以自定义点击事件， 从而实现模态和非模态框效果。
@@ -89,7 +89,7 @@ class ToastView: NSObject {
 
 
     //显示toast，非模态
-    func showToastExt(text: String, pos: Position) {
+    public func showToastExt(text: String, pos: Position) {
         let rootRect = UIApplication.shared.windows.first?.frame   //应用屏幕大小
 
         let lableView = UILabel(frame: CGRect(x: 0, y: 0, width: 0, height: 0))

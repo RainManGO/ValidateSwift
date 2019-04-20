@@ -16,6 +16,7 @@
 		EB92BEE52269CCD700EA104E /* ValidateArrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB92BEE22269CCD600EA104E /* ValidateArrayViewController.swift */; };
 		EB92BEE62269CCD700EA104E /* ValidateSubmitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB92BEE32269CCD600EA104E /* ValidateSubmitViewController.swift */; };
 		EB92BEE72269CCD700EA104E /* VaildateSingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB92BEE42269CCD700EA104E /* VaildateSingleViewController.swift */; };
+		EB92BEFC226AC52200EA104E /* SingleRulerValidateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB92BEFB226AC52200EA104E /* SingleRulerValidateViewController.swift */; };
 		EBD5E36EAA43418B449BC742 /* Pods_ValidateSwift_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82EC27EF5A0D18BFCBF254B7 /* Pods_ValidateSwift_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		EB92BEE22269CCD600EA104E /* ValidateArrayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidateArrayViewController.swift; sourceTree = "<group>"; };
 		EB92BEE32269CCD600EA104E /* ValidateSubmitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidateSubmitViewController.swift; sourceTree = "<group>"; };
 		EB92BEE42269CCD700EA104E /* VaildateSingleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VaildateSingleViewController.swift; sourceTree = "<group>"; };
+		EB92BEFB226AC52200EA104E /* SingleRulerValidateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleRulerValidateViewController.swift; sourceTree = "<group>"; };
 		EE5E6CD9CC6E1DE180577301 /* Pods-ValidateSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ValidateSwift_Example.release.xcconfig"; path = "Target Support Files/Pods-ValidateSwift_Example/Pods-ValidateSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -169,6 +171,7 @@
 				EB92BEE42269CCD700EA104E /* VaildateSingleViewController.swift */,
 				EB92BEE22269CCD600EA104E /* ValidateArrayViewController.swift */,
 				EB92BEE32269CCD600EA104E /* ValidateSubmitViewController.swift */,
+				EB92BEFB226AC52200EA104E /* SingleRulerValidateViewController.swift */,
 			);
 			name = Demo;
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB92BEFC226AC52200EA104E /* SingleRulerValidateViewController.swift in Sources */,
 				EB92BEE72269CCD700EA104E /* VaildateSingleViewController.swift in Sources */,
 				EB92BEE52269CCD700EA104E /* ValidateArrayViewController.swift in Sources */,
 				EB92BEE62269CCD700EA104E /* ValidateSubmitViewController.swift in Sources */,

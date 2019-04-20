@@ -22,7 +22,7 @@ class VaildateSingleViewController: UIViewController {
     @IBAction func submitBtnClick(_ sender: UIButton) {
         if accountText.validate(emptyInfo: nil) &&
             passwordText.validate(emptyInfo: "请输入密码"){
-            print("表单数据完整可以登录")
+            ToastView().showToastExt(text: "表单数据完整可以登录", pos: .Mid)
         }
     }
 

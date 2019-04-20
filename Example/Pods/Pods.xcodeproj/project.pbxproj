@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		0C684C6BBEE84E1361C376CC6247C87D /* Pods-ValidateSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A044CEC01134DF2FAA21C14BD6F9CC00 /* Pods-ValidateSwift_Example-dummy.m */; };
-		133E256783204BA30EDCFA8B41E973DB /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2849C80D00144F5BAED270D4EC8A8F75 /* Toast.swift */; };
-		142200D5FF863D8980745624EA339249 /* ValidateAble.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AA3D6D9FA89C3A2B5D45EFBE15941B /* ValidateAble.swift */; };
 		3A3F4862CD14679961C3B1E8155C3CDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		517D6E0DD556C0A4F37F94D6A2EB11C1 /* ValidateSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D127ECB8A34593729BAD3483C0044444 /* ValidateSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		552E86E545565380A0E3E81FDFF2C268 /* TextFelid+Validate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C07D1270C3E21C676F23CC44406E5A4 /* TextFelid+Validate.swift */; };
+		464271B013C145A32613D70BC5CE5580 /* TextView+Validate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D4390FDDB900F8AA9313444436B8D5 /* TextView+Validate.swift */; };
+		517D6E0DD556C0A4F37F94D6A2EB11C1 /* ValidateSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66CE94C5698D8DC0DA54307B41423C60 /* ValidateSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6806EF9884B2F0B8C63EE5B87D1D3D19 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BAD4C7D68D2224B2C224AD8807DA3D /* Constants.swift */; };
 		6D8911AF15B39A670B4E575AA90A5BC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		797885FCE9279E0B4140C877B78372DA /* ValidateSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 546C85F942D46251272A3E3EA18CB14D /* ValidateSwift-dummy.m */; };
 		8133DC8D5B0DE637346DFC500D21E5B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		8CB4A9F4BF9A9481F27D7287AF4FBE73 /* Pods-ValidateSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B9B5DBFC13F1A5ECCB42048B5BA7CC /* Pods-ValidateSwift_Tests-dummy.m */; };
+		8D7C3A5370BBE9AB65832AADFF43364E /* ValidateRulers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DD0198FB0DBB8D9F06FF8BE84E8052 /* ValidateRulers.swift */; };
+		A8F850185C3987CC254AAA32FBCDD078 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18AA3E28F23B46EE25190BB5012BF67 /* Toast.swift */; };
 		B55AA6B80245959B452AE867A719C5CD /* Pods-ValidateSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 623293B16BEC264515542239F0E48CCB /* Pods-ValidateSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B8AEB8749D26B3BA6BE49837ABC880E1 /* TextView+Validate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935E14E470E1F770F9A563CF0C7D4CA1 /* TextView+Validate.swift */; };
 		D7A71F6863DA3BF76706C8736DCC2726 /* Pods-ValidateSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 824AF6EC6293A2561103814586B49725 /* Pods-ValidateSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F352FABB76275B53AA222D82D050AEB7 /* ValidateSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF880EBAABE3E36DEAEA18339E7BBD5F /* ValidateSwift-dummy.m */; };
+		E3C7A9B31C9E58334B186B3AECDF7D39 /* ValidateAble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F046E429E72FC3FA013CDE7061C2D6 /* ValidateAble.swift */; };
+		F3DA4B27054202DADFE35F6781D113AA /* TextFelid+Validate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F890A78513887DFB807C4E3B63DF44BD /* TextFelid+Validate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,40 +42,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04E0A9307654F1C7729886D86544B8CE /* ValidateSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ValidateSwift-prefix.pch"; sourceTree = "<group>"; };
-		07AD9AE06644084A47B7D519EA7337BA /* Pods_ValidateSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ValidateSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B00974F8A309B47C75073B3D95F06B9 /* Pods_ValidateSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ValidateSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00DF91C310ACD5B449C1B9473C252376 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		07AD9AE06644084A47B7D519EA7337BA /* Pods_ValidateSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ValidateSwift_Tests.framework; path = "Pods-ValidateSwift_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B00974F8A309B47C75073B3D95F06B9 /* Pods_ValidateSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ValidateSwift_Example.framework; path = "Pods-ValidateSwift_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11B4CF738A8E15C679DC7A84C4D58533 /* Pods-ValidateSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ValidateSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2849C80D00144F5BAED270D4EC8A8F75 /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = ValidateSwift/Classes/Toast.swift; sourceTree = "<group>"; };
 		28B9B5DBFC13F1A5ECCB42048B5BA7CC /* Pods-ValidateSwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ValidateSwift_Tests-dummy.m"; sourceTree = "<group>"; };
+		294DB3A8D0D0192994ACFC06D2722F43 /* ValidateSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ValidateSwift.modulemap; sourceTree = "<group>"; };
 		2BF7E84133D359CACEB4C10278496FB1 /* Pods-ValidateSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ValidateSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2E8F6911CD11C216916F971D0BC979D8 /* ValidateSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ValidateSwift.podspec; sourceTree = "<group>"; };
 		2FD574806813C961DA34B2420DB96B7A /* Pods-ValidateSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ValidateSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		301D4C83E76C483AD602ECA0EE792FB1 /* Pods-ValidateSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ValidateSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		3653D97C322303290EED7E31E1A26821 /* ValidateSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ValidateSwift.modulemap; sourceTree = "<group>"; };
 		37FA16C40910CA87D30AC6D5780AEA2E /* Pods-ValidateSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ValidateSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		39D4390FDDB900F8AA9313444436B8D5 /* TextView+Validate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TextView+Validate.swift"; path = "ValidateSwift/Classes/TextView+Validate.swift"; sourceTree = "<group>"; };
 		43FFE834DADD903FC350CA6A7D5B01E2 /* Pods-ValidateSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ValidateSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		541A14E319F2F86CDD0291A058C82E43 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		546C85F942D46251272A3E3EA18CB14D /* ValidateSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ValidateSwift-dummy.m"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		61BAD4C7D68D2224B2C224AD8807DA3D /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = ValidateSwift/Classes/Constants.swift; sourceTree = "<group>"; };
 		623293B16BEC264515542239F0E48CCB /* Pods-ValidateSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ValidateSwift_Example-umbrella.h"; sourceTree = "<group>"; };
-		72D64B0B34E42217D28222818B27DBFE /* ValidateSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ValidateSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F046E429E72FC3FA013CDE7061C2D6 /* ValidateAble.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidateAble.swift; path = ValidateSwift/Classes/ValidateAble.swift; sourceTree = "<group>"; };
+		66CE94C5698D8DC0DA54307B41423C60 /* ValidateSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ValidateSwift-umbrella.h"; sourceTree = "<group>"; };
+		72D64B0B34E42217D28222818B27DBFE /* ValidateSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ValidateSwift.framework; path = ValidateSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		74924D7E65E305FC57BA9C555852B1C5 /* Pods-ValidateSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ValidateSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		80751CC149199625F04FAD03CD29EF7F /* Pods-ValidateSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ValidateSwift_Example.modulemap"; sourceTree = "<group>"; };
 		824AF6EC6293A2561103814586B49725 /* Pods-ValidateSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ValidateSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
-		849FF206BFE1849C7CDD906737DD5B57 /* ValidateSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ValidateSwift.xcconfig; sourceTree = "<group>"; };
-		935E14E470E1F770F9A563CF0C7D4CA1 /* TextView+Validate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TextView+Validate.swift"; path = "ValidateSwift/Classes/TextView+Validate.swift"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9C07D1270C3E21C676F23CC44406E5A4 /* TextFelid+Validate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TextFelid+Validate.swift"; path = "ValidateSwift/Classes/TextFelid+Validate.swift"; sourceTree = "<group>"; };
+		8A4331820EE2F0E6A1917180F447028D /* ValidateSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ValidateSwift-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9C7ACFD10A610B27CD978A0BEE0D542F /* Pods-ValidateSwift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ValidateSwift_Tests-Info.plist"; sourceTree = "<group>"; };
+		9E0A88CF5CBFCCB8F82B5D4225CB01C8 /* ValidateSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ValidateSwift.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A044CEC01134DF2FAA21C14BD6F9CC00 /* Pods-ValidateSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ValidateSwift_Example-dummy.m"; sourceTree = "<group>"; };
 		B29BCF3E5E6AA3E3994BADF422A59E50 /* Pods-ValidateSwift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ValidateSwift_Example-Info.plist"; sourceTree = "<group>"; };
-		B82DF870A51D27F2F053D3AD57AB5421 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C5DD0198FB0DBB8D9F06FF8BE84E8052 /* ValidateRulers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidateRulers.swift; path = ValidateSwift/Classes/ValidateRulers.swift; sourceTree = "<group>"; };
+		C91F27AC22E71DBA9B55AF80FB9CBA42 /* ValidateSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ValidateSwift.xcconfig; sourceTree = "<group>"; };
 		CC371B07E12C116B9EA22EC8F9B26576 /* Pods-ValidateSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ValidateSwift_Tests.modulemap"; sourceTree = "<group>"; };
-		CF880EBAABE3E36DEAEA18339E7BBD5F /* ValidateSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ValidateSwift-dummy.m"; sourceTree = "<group>"; };
-		D127ECB8A34593729BAD3483C0044444 /* ValidateSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ValidateSwift-umbrella.h"; sourceTree = "<group>"; };
-		D823A4FAA8F5BDD74CC836B17888E76A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		D9AA3D6D9FA89C3A2B5D45EFBE15941B /* ValidateAble.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidateAble.swift; path = ValidateSwift/Classes/ValidateAble.swift; sourceTree = "<group>"; };
-		E47C3ED6D2018F8EE46E045D5370C046 /* ValidateSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ValidateSwift-Info.plist"; sourceTree = "<group>"; };
+		D569D43B8C694546105B1C9AC29476B8 /* ValidateSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ValidateSwift-Info.plist"; sourceTree = "<group>"; };
+		F18AA3E28F23B46EE25190BB5012BF67 /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = ValidateSwift/Classes/Toast.swift; sourceTree = "<group>"; };
 		F307D4C5D6C745FDE9E12A5D2BDEA28C /* Pods-ValidateSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ValidateSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F890A78513887DFB807C4E3B63DF44BD /* TextFelid+Validate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TextFelid+Validate.swift"; path = "ValidateSwift/Classes/TextFelid+Validate.swift"; sourceTree = "<group>"; };
 		F9718E6828A404F8B9B62264F8B92FD0 /* Pods-ValidateSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ValidateSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,14 +109,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1AECBCD5601EAA932002102C242890FA /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EC4FCD5B50E3F73BE1892B04C9F99313 /* ValidateSwift */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		2939747323A7D62DB7B16DDD6D1AE7D6 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,39 +143,33 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		60115D561CA94D92A1F322248C31C315 /* Pod */ = {
+		7BAF03832DBA24F0913F29C4D0D346AB /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D823A4FAA8F5BDD74CC836B17888E76A /* LICENSE */,
-				B82DF870A51D27F2F053D3AD57AB5421 /* README.md */,
-				2E8F6911CD11C216916F971D0BC979D8 /* ValidateSwift.podspec */,
+				F0E0D186AC78BD22F860239A46460AB8 /* ValidateSwift */,
 			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				1AECBCD5601EAA932002102C242890FA /* Development Pods */,
+				7BAF03832DBA24F0913F29C4D0D346AB /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				BE896CE1A31A393FF868BAF5A048717E /* Products */,
 				2939747323A7D62DB7B16DDD6D1AE7D6 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		842980791666C49E6BFA9CE544AAC88D /* Support Files */ = {
+		A802A04A442A627B6E19BA9FCE1ADE70 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				3653D97C322303290EED7E31E1A26821 /* ValidateSwift.modulemap */,
-				849FF206BFE1849C7CDD906737DD5B57 /* ValidateSwift.xcconfig */,
-				CF880EBAABE3E36DEAEA18339E7BBD5F /* ValidateSwift-dummy.m */,
-				E47C3ED6D2018F8EE46E045D5370C046 /* ValidateSwift-Info.plist */,
-				04E0A9307654F1C7729886D86544B8CE /* ValidateSwift-prefix.pch */,
-				D127ECB8A34593729BAD3483C0044444 /* ValidateSwift-umbrella.h */,
+				00DF91C310ACD5B449C1B9473C252376 /* LICENSE */,
+				541A14E319F2F86CDD0291A058C82E43 /* README.md */,
+				9E0A88CF5CBFCCB8F82B5D4225CB01C8 /* ValidateSwift.podspec */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ValidateSwift";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -200,15 +190,31 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EC4FCD5B50E3F73BE1892B04C9F99313 /* ValidateSwift */ = {
+		CE200308D6162A13345BFF19D62683C6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9C07D1270C3E21C676F23CC44406E5A4 /* TextFelid+Validate.swift */,
-				935E14E470E1F770F9A563CF0C7D4CA1 /* TextView+Validate.swift */,
-				2849C80D00144F5BAED270D4EC8A8F75 /* Toast.swift */,
-				D9AA3D6D9FA89C3A2B5D45EFBE15941B /* ValidateAble.swift */,
-				60115D561CA94D92A1F322248C31C315 /* Pod */,
-				842980791666C49E6BFA9CE544AAC88D /* Support Files */,
+				294DB3A8D0D0192994ACFC06D2722F43 /* ValidateSwift.modulemap */,
+				C91F27AC22E71DBA9B55AF80FB9CBA42 /* ValidateSwift.xcconfig */,
+				546C85F942D46251272A3E3EA18CB14D /* ValidateSwift-dummy.m */,
+				D569D43B8C694546105B1C9AC29476B8 /* ValidateSwift-Info.plist */,
+				8A4331820EE2F0E6A1917180F447028D /* ValidateSwift-prefix.pch */,
+				66CE94C5698D8DC0DA54307B41423C60 /* ValidateSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ValidateSwift";
+			sourceTree = "<group>";
+		};
+		F0E0D186AC78BD22F860239A46460AB8 /* ValidateSwift */ = {
+			isa = PBXGroup;
+			children = (
+				61BAD4C7D68D2224B2C224AD8807DA3D /* Constants.swift */,
+				F890A78513887DFB807C4E3B63DF44BD /* TextFelid+Validate.swift */,
+				39D4390FDDB900F8AA9313444436B8D5 /* TextView+Validate.swift */,
+				F18AA3E28F23B46EE25190BB5012BF67 /* Toast.swift */,
+				64F046E429E72FC3FA013CDE7061C2D6 /* ValidateAble.swift */,
+				C5DD0198FB0DBB8D9F06FF8BE84E8052 /* ValidateRulers.swift */,
+				A802A04A442A627B6E19BA9FCE1ADE70 /* Pod */,
+				CE200308D6162A13345BFF19D62683C6 /* Support Files */,
 			);
 			name = ValidateSwift;
 			path = ../..;
@@ -303,7 +309,7 @@
 			buildConfigurationList = A3950F1CD9081EBD1E60E074D0EBB054 /* Build configuration list for PBXNativeTarget "ValidateSwift" */;
 			buildPhases = (
 				88F53D5A9E61FE10E8051DBE1175AFF7 /* Headers */,
-				9A929E066544525B1893601A9CB0AEC8 /* Sources */,
+				85F46DFA53E601AFBB46F97E9E012787 /* Sources */,
 				7978971C16E060843D9D6D87038F2FDC /* Frameworks */,
 				C2C5BABC7990BCACE658A5A5C7DF6FC4 /* Resources */,
 			);
@@ -377,15 +383,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A929E066544525B1893601A9CB0AEC8 /* Sources */ = {
+		85F46DFA53E601AFBB46F97E9E012787 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				552E86E545565380A0E3E81FDFF2C268 /* TextFelid+Validate.swift in Sources */,
-				B8AEB8749D26B3BA6BE49837ABC880E1 /* TextView+Validate.swift in Sources */,
-				133E256783204BA30EDCFA8B41E973DB /* Toast.swift in Sources */,
-				142200D5FF863D8980745624EA339249 /* ValidateAble.swift in Sources */,
-				F352FABB76275B53AA222D82D050AEB7 /* ValidateSwift-dummy.m in Sources */,
+				6806EF9884B2F0B8C63EE5B87D1D3D19 /* Constants.swift in Sources */,
+				F3DA4B27054202DADFE35F6781D113AA /* TextFelid+Validate.swift in Sources */,
+				464271B013C145A32613D70BC5CE5580 /* TextView+Validate.swift in Sources */,
+				A8F850185C3987CC254AAA32FBCDD078 /* Toast.swift in Sources */,
+				E3C7A9B31C9E58334B186B3AECDF7D39 /* ValidateAble.swift in Sources */,
+				8D7C3A5370BBE9AB65832AADFF43364E /* ValidateRulers.swift in Sources */,
+				797885FCE9279E0B4140C877B78372DA /* ValidateSwift-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,7 +460,7 @@
 		};
 		1C9A699FA683D95A9C0FC2F15ACCFD74 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 849FF206BFE1849C7CDD906737DD5B57 /* ValidateSwift.xcconfig */;
+			baseConfigurationReference = C91F27AC22E71DBA9B55AF80FB9CBA42 /* ValidateSwift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -601,7 +609,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -611,7 +620,7 @@
 		};
 		BD94B1E1CA54EE25AB9BE0543CB1ED93 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 849FF206BFE1849C7CDD906737DD5B57 /* ValidateSwift.xcconfig */;
+			baseConfigurationReference = C91F27AC22E71DBA9B55AF80FB9CBA42 /* ValidateSwift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -633,7 +642,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;

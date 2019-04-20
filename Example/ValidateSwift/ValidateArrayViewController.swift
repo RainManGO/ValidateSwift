@@ -26,7 +26,7 @@ extension ValidateArrayViewController:ValidateAble{
 
     @IBAction func submitBtnClick(_ sender: UIButton) {
         if validateTexts(textsArray: [nameText,phoneText,emailText]){
-            print("可以进行下一步")
+            ToastView().showToastExt(text: "可以进行下一步", pos: .Mid)
         }
     }
 

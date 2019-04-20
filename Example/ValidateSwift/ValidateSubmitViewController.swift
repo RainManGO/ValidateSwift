@@ -23,7 +23,7 @@ extension ValidateSubmitViewController:ValidateAble{
 
     @IBAction func submitBtnClick(_ sender: UIButton) {
         if checkSubmitView(self.view){
-            print("可以进行下一步")
+            ToastView().showToastExt(text: "可以进行下一步", pos: .Mid)
         }
     }
 
