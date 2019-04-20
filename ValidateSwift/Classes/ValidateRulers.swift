@@ -5,10 +5,16 @@
 //  Created by ZhangYu on 2019/4/20.
 //
 
-public struct RulerText {
-    var text:UITextField
-    var rulers:[Rulers]
-    var requiredInfo:String
+public struct RulerText{
+    public var text:UITextField
+    public var rulers:[Rulers]
+    public var requiredInfo:String?
+
+    public init(textfelid:UITextField,textRulers:[Rulers],emptyInfo:String? = nil){
+        text = textfelid
+        rulers = textRulers
+        requiredInfo = emptyInfo
+    }
 }
 
 public enum Rulers:Int{

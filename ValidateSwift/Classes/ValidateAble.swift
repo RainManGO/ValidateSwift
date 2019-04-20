@@ -11,6 +11,19 @@ public protocol ValidateAble {
 
 extension ValidateAble {
 
+    /// 验证RulerText
+    ///
+    /// - Parameter rulerTexts:
+    public func validateTexts(rulerTexts:[RulerText]) -> Bool{
+        for rulerText in rulerTexts {
+            if rulerText.text.validate(rulers: rulerText.rulers, emptyInfo:rulerText.requiredInfo) == false{
+                return false
+            }
+        }
+        return true
+    }
+
+
     /// 验证textFiled 数组是否为空
     ///
     /// - Parameter textsArray:
