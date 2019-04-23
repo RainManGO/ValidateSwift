@@ -6,11 +6,16 @@
 [![License](https://img.shields.io/cocoapods/l/ValidateSwift.svg?style=flat)](https://cocoapods.org/pods/ValidateSwift)
 [![Platform](https://img.shields.io/cocoapods/p/ValidateSwift.svg?style=flat)](https://cocoapods.org/pods/ValidateSwift)
 
+
+![image](https://github.com/RainManGO/ValidateSwift/blob/master/Validate1.gif)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+- iOS 8.0
+- Swift4.0+
 
 
 ## Installation
@@ -22,9 +27,13 @@ it, simply add the following line to your Podfile:
 pod 'ValidateSwift'
 ```
 
-## Author
+## Usage
 
-776210576@qq.com, 776210576@qq.com
+ ### Single TextFelid
+ 
+```swift
+ phoneText.validate(rulers: [Rulers.required,Rulers.phone]
+ ```
 
 ## License
 
