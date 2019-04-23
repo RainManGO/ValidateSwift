@@ -6,34 +6,133 @@
 [![License](https://img.shields.io/cocoapods/l/ValidateSwift.svg?style=flat)](https://cocoapods.org/pods/ValidateSwift)
 [![Platform](https://img.shields.io/cocoapods/p/ValidateSwift.svg?style=flat)](https://cocoapods.org/pods/ValidateSwift)
 
-
 ![image](https://github.com/RainManGO/ValidateSwift/blob/master/Validate1.gif)
 
-## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+## 简介
+
+使用起来超级简单的text验证框架，从此远离一堆代码验证一个表单。
+
+
+
+## 示例
+
+详细例子可以运行示例程序查看，克隆这个仓库，在Example文件夹下执行`pod install`
+
+
+
+## 支持
+
 - iOS 8.0
 - Swift4.0+
 
 
-## Installation
 
-ValidateSwift is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+## CocoaPods安装
+
+Podfile里添加：
 
 ```ruby
 pod 'ValidateSwift'
 ```
 
-## Usage
 
- ### Single TextFelid
- 
+
+## 使用
+
+
+
+### 单个TextFlied
+
+- 如果只需要验空
+
+  ```swift
+  passwordText.validate(emptyInfo: "请输入XX")
+  ```
+
+   emptyInfo参数可以不填，默认提示placeholder
+
+- 规则验证
+
+  ```swift
+   phoneText.validate(rulers: [Rulers.required,Rulers.phone]
+  ```
+
+
+
+### 多个TextFlied
+
+首先需要遵守`ValidateAble`协议
+
 ```swift
- phoneText.validate(rulers: [Rulers.required,Rulers.phone]
- ```
+class ValidateArrayViewController:ValidateAble{
+
+}
+```
+
+
+
+- 如果只需要验空
+
+  ```swift
+   if validateTexts(textsArray: [nameText,phoneText,emailText]){
+         
+   }
+  ```
+
+  更简单的方式，你还可以使用：(会深度遍历所有self.view的子TextFlied，如果没有就提示placeholder)
+
+  ```swift
+  if checkSubmitView(self.view){
+              
+  }
+  ```
+
+  
+
+- 规则验证
+
+  ```swift
+  if validateTexts(rulerTexts: getRulerText()) {
+             
+  }
+  
+  func getRulerText() -> [RulerText] {
+           let passwordRulerText = RulerText.init(textfelid: passwordText, textRulers: [Rulers.required,Rulers.okpwd], emptyInfo: "请输入密码")
+  
+          let phoneRulerText = RulerText.init(textfelid: phoneText, textRulers: [Rulers.required,Rulers.phone])
+  
+          let emailRulerText = RulerText.init(textfelid: emailText, textRulers: [Rulers.required,Rulers.email])
+  
+          let idcardRulerText = RulerText.init(textfelid: idcardText, textRulers: [Rulers.required,Rulers.idcard])
+  
+          let numberRulerText = RulerText.init(textfelid: numberText, textRulers: [Rulers.number])
+  
+          return [passwordRulerText,phoneRulerText,emailRulerText,idcardRulerText,numberRulerText]
+   }
+  
+  ```
+
+  
+
+### 目前支持规则
+
+```swift
+public enum Rulers:Int{
+    case required = 0
+    case phone
+    case email
+    case okpwd
+    case idcard
+    case bankcard
+    case number
+}
+```
+
+希望可以共同维护，遇到的多种规则，让它越来越强大，让验证越来越简单。
+
+
 
 ## License
 
