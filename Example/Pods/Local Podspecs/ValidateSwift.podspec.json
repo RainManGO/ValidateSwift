@@ -1,8 +1,8 @@
 {
   "name": "ValidateSwift",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "summary": "A short description of ValidateSwift.",
-  "homepage": "https://github.com/776210576@qq.com/ValidateSwift",
+  "homepage": "https://github.com/RainManGO/ValidateSwift",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -11,9 +11,10 @@
     "ZY": "776210576@qq.com"
   },
   "source": {
-    "git": "https://github.com/776210576@qq.com/ValidateSwift.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/RainManGO/ValidateSwift.git",
+    "tag": "0.2.0"
   },
+  "swift_version": "4.2",
   "platforms": {
     "ios": "8.0"
   },

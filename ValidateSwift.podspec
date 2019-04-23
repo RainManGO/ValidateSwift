@@ -10,10 +10,11 @@ Pod::Spec.new do |s|
   s.name             = 'ValidateSwift'
   s.version          = '0.2.0'
   s.summary          = 'A short description of ValidateSwift.'
-  s.homepage         = 'https://github.com/776210576@qq.com/ValidateSwift'
+  s.homepage         = 'https://github.com/RainManGO/ValidateSwift'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ZY' => '776210576@qq.com' }
-  s.source           = { :git => 'https://github.com/776210576@qq.com/ValidateSwift.git', :tag => s.version.to_s }
-  s.ios.deployment_target = '8.0'
+  s.source           = { :git => 'https://github.com/RainManGO/ValidateSwift.git', :tag => s.version.to_s }
+  s.swift_version = "4.2"
+  s.platform     = :ios, "8.0"
   s.source_files = 'ValidateSwift/Classes/**/*'
 end

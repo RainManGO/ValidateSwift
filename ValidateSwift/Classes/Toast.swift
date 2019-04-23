@@ -76,7 +76,7 @@ public class ToastView: NSObject {
         window.backgroundColor = UIColor.clear
         window.frame = rootRect!
         window.center = container.center
-        window.windowLevel = UIWindowLevelAlert
+        window.windowLevel = UIWindow.Level.alert
         window.isHidden = false
         window.addSubview(container)
 
@@ -145,7 +145,7 @@ public class ToastView: NSObject {
         window.backgroundColor = UIColor.clear
         window.frame = windowRect
         window.center = windowCenter
-        window.windowLevel = UIWindowLevelAlert
+        window.windowLevel = UIWindow.Level.alert
         window.isHidden = false
         window.addSubview(bgView)
 

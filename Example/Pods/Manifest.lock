@@ -1,5 +1,5 @@
 PODS:
-  - ValidateSwift (0.1.0)
+  - ValidateSwift (0.2.0)
 
 DEPENDENCIES:
   - ValidateSwift (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ValidateSwift: a8b00057171ea03fce698feadb22c2bc419425bd
+  ValidateSwift: 261b1c9d009ece1da3f17a89f212ab86feb42d4d
 
 PODFILE CHECKSUM: fbc88dbb040859fe6c8593f0d02b880a3d0de309
 
-COCOAPODS: 1.6.0.beta.1
+COCOAPODS: 1.6.1
