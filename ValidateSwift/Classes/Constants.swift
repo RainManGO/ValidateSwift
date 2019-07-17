@@ -8,9 +8,9 @@
 
 //MARK: - 正则表达式
 
-public let emailRegex = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}"
+public let emailRegex = "\\w+([-+.]\\w+)*@\\w+([-.]\\w+)*\\.\\w+([-.]\\w+)*"
 
-public let phoneRegex = "^1([358][0-9]|4[579]|66|7[0135678]|9[89])[0-9]{8}$"
+public let phoneRegex = "^1[3|4|5|6|7|8|9][0-9]\\d{8}$"
 
 public let bankRegex = "(^\\d{19}$)|(^\\d{19}-\\d{4}$)|(^\\d{20}$)|(^\\d{16}$)|(^\\d{20}-\\d{4}$)"
 
